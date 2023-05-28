@@ -1,0 +1,17 @@
+{
+  "name": "webaurion-alerting",
+  "version": "1.0.0",
+  "description": "Webaurion web scrapping to make alerting",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "type": "module"
+}
